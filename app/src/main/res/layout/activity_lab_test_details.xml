@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context=".LabTestDetailsActivity">
+
+    <TextView
+        android:id="@+id/textViewBMPack"
+        android:layout_width="184dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="38dp"
+        android:text="Lab test and Packeges"
+        android:textColor="@color/yellowLight"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDDName" />
+
+    <TextView
+        android:id="@+id/textViewDDName"
+        android:layout_width="173dp"
+        android:layout_height="42dp"
+        android:text=" GOOD LIFE"
+        android:textColor="@color/purple_280"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.008" />
+
+    <Button
+        android:id="@+id/buttonBMback"
+        android:layout_width="179dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginBottom="4dp"
+        android:inputType="textMultiLine"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/buttonBMGotocart" />
+
+    <Button
+        android:id="@+id/buttonBMGotocart"
+        android:layout_width="179dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="80dp"
+        android:text="Go to cart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="8dp"
+        android:text="Deliver Location,GUNUPUR"
+        android:textColor="@color/colorWhite"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewBMPack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDDName"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/TotalCostLD"
+        android:layout_width="91dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="424dp"
+        android:layout_marginBottom="12dp"
+        android:text="TextView"
+        android:textColor="@color/yellowLight"
+        app:layout_constraintBottom_toTopOf="@+id/buttonBMGotocart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="274dp"
+        android:layout_height="399dp"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/buttonBMGotocart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBMPack"
+        app:layout_constraintVertical_bias="0.09" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
